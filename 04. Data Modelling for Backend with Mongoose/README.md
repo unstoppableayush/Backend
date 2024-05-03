@@ -8,5 +8,6 @@
     
 - When we create model on sever then model gets converted into plural and lower case.
 - These models saved on to database as database collection.
+- Made models of Ecommerce & Hospital Management.
 
 
