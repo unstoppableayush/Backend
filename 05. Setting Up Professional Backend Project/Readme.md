@@ -7,4 +7,10 @@
 - Used git ignore generators to generate git ignore file.
 - created `.env.sample` to give env variables to others.
 - Dev dependency are those dependency which are only used in development not in production. (`npm i -D nodemon `)
-- 
+- Create important folder in `src` directory
+    - `controllers` - Functionality.
+    - `db` - Database connection.
+    - `middlewares` - Code run in between.
+    - `models` - Database schema
+    - `routes` - Handle different routes
+    - `utils` - Utility (File Upload , Mailing , Tokens)
