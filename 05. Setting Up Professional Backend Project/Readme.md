@@ -14,3 +14,7 @@
     - `models` - Database schema
     - `routes` - Handle different routes
     - `utils` - Utility (File Upload , Mailing , Tokens)
+
+- `prettier` - To maintain formatting in a team.
+- Included `.prettierrc` file to define formatting.
+- Included `.prettierignore` file to ignore the formatting in defined files.
