@@ -37,7 +37,15 @@
 
 - Used two approach to connect the database - 1. In Index File, 2. In Seprate DB file
 
+- Since Node v20.6.0, node is supporting env file without any 3rd party library (dotenv). You have to just add --env-file in your script tag in package.json. So, your script tag will look like:
+
+```Javascript
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "nodemon --env-file=.env src/index.js"
+  }
+```
 - Assignments - 
     - console log `connectionInstance`
     - Read more about process.exit code
-    
+
