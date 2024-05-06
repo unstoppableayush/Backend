@@ -47,5 +47,15 @@
 ```
 - Assignments - 
     - console log `connectionInstance`
-    - Read more about process.exit code
+    - Read more about process.exit code - [Blog](https://www.geeksforgeeks.org/node-js-exit-codes/)
+
+  
+## Custom api response and error handling
+
+- Installed two packages `cookie-parser` & `cors`
+- Defined origin for `cors` middleware.
+- Defined middleware to accept json - `app.use(express.json())`
+- `express.static("public")` used this middleware to staticlly use the files. (images, pdf, etc)
+- Define asyncHandler and ApiError in `utils` Folder for handling async operation and Api Error.
+- Define Api Response as well.
 
