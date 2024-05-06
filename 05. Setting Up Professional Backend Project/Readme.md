@@ -59,3 +59,14 @@
 - Define asyncHandler and ApiError in `utils` Folder for handling async operation and Api Error.
 - Define Api Response as well.
 
+## User and video model with hooks and JWT
+
+- Created `user model` & `video model`
+- Installed `mongoose-aggregate-paginate-v2` package for Video Schema
+- Installed `bcrypt` package to hash password.
+- Installed `JWT` package to create tokens.
+- Used pre middleware function to encrypt the password before save.
+- Don't use arrow function in pre middleware function because there is no context of this.
+- `JWT` is a bearer token.
+- Created two methods `generateAccessToken` & `generateRefreshToken`.
+
