@@ -70,3 +70,11 @@
 - `JWT` is a bearer token.
 - Created two methods `generateAccessToken` & `generateRefreshToken`.
 
+## Upload file in backend | Multer
+
+- Used `cloudinary` and `multer` to upload files.
+- We will use multer to save file temporarily on local storage.
+- and We will use cloudinary to take file from local storage and upload on cloud. 
+- Uses try catch block to handle file uploading.
+- Made a middleware using Multer.
+- Using multer to store the files in `diskstorage`.
