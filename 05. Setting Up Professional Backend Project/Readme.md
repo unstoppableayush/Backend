@@ -78,3 +78,74 @@
 - Uses try catch block to handle file uploading.
 - Made a middleware using Multer.
 - Using multer to store the files in `diskstorage`.
+
+
+## HTTP crash course | Http Methods | Http Headers
+
+### What are HTTP Headers ?
+
+- `metadata` - Key-value send along with request & response.
+- Uses - caching, authentication, manage state
+- x-prefix -> 2012(x-deprecated)
+
+- ```
+    Request Headers -> from Client
+    Response Headers -> from Server
+    Representation Headers -> encoding / compression
+    Payload Headers -> data
+
+  ```
+
+- Most Common Headers :
+  - ```
+      Accept : application/json 
+      User-Agent     (Request from which application)
+      Authorization  (Bearer token)
+      Content-Type   (Images, Pdf, etc)
+      Cookie
+      Cache-Control  (Expiry of Data)
+    ```
+- CORS :
+  - ```
+      Access-Control-Allow-Origin
+      Access-Control-Allow-Credentials
+      Access-Control-Allow-Methpd
+    ```
+- Security :
+  - ```
+    Cross-Design-Embeddedr-Policy
+    Cross-Design-Opener-Policy
+    Content-Security-Policy
+    X-XSS-Protection
+    ```
+
+### HTTP Methods 
+- Basic `set of operations` that can be used to interact with server.
+
+  - GET :     retrieve a resource
+  - HEAD :    No message body (respose headers only)
+  - OPTIONS : What operations are available
+  - TRACE :   Loopback test (get some data)
+  - DELETE :  Remove a resource
+  - PUT :     Replace a resource
+  - POST :    Intract with resource (mostly add)
+  - PATCH :   Change part of a resource
+
+- HTTP Status Code :
+  - ```
+      1XX  - Informational
+      2XX -  Success
+      3XX -  Redirection
+      4XX -  Client Error
+      5XX -  Server Error
+    ```
+  - ```
+      100 - Continue           400 - Bad Request 
+      102 - Processsing        401 - Unauthorized
+      200 - Ok                 402 - Payement required
+      201 - Created            404 - Not Found
+      202 - Accepted           500 - Internal ServerError
+      307 - Temporary redirect  504 - Gateway timeout
+      308 - Permanent redirect
+    ```
+  
