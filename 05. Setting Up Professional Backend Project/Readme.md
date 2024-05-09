@@ -149,3 +149,7 @@
       308 - Permanent redirect
     ```
   
+## Router and Controller with debugging
+
+- Breaks the problem then find solution
+- Made user controller
