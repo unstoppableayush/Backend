@@ -153,3 +153,29 @@
 
 - Breaks the problem then find solution
 - Made user controller
+- Made user route
+- Test the route with postman
+
+## Logic building | Register controller
+
+- Steps to regsiter user
+  1. get user details from frontend
+  2. validation
+  3. check if user already exists: username, email
+  4. check for images, check for avatar
+  5. upload them to cloudinary, avatar
+  6. create user object - create entry in db
+  7. remove password and refresh token filed from response
+  8. check for user creation 
+  9. return response
+
+- Written a middleware to upload images when users will register 
+- fetched the required field from frontend.
+- Used diffrent way to vaildate error.
+- Used operator to check user already exists or not.
+- Assignment -: console log - `req.files` , `existedUser`
+- Gets the files location.
+- Uploded the files on cloudinary.
+- Inserted the data of user in the database.
+- Checked user created or not
+- return response using `ApiResponse` of created user.
