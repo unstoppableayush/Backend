@@ -179,3 +179,13 @@
 - Inserted the data of user in the database.
 - Checked user created or not
 - return response using `ApiResponse` of created user.
+
+## How to use postman for backend
+
+- Uses Postman to register user.
+- solve error of `await`.
+- Written code to remove the local storage files.(async)
+- console logged `req.files`.
+- solve bug of cover image.
+- created `collection` and `variable` in Postman.
+- Used the created variable in defined collection.
