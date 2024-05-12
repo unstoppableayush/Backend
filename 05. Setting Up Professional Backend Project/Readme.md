@@ -189,3 +189,27 @@
 - solve bug of cover image.
 - created `collection` and `variable` in Postman.
 - Used the created variable in defined collection.
+
+## Access, Refresh Token, Middleware and Cookies
+
+- Access token expires soon.
+- Refresh token expires in long term.
+- Algorithm of loging user
+- ```javascript
+     /**
+   * req body -> data
+   * username or email
+   * find the user
+   * password check
+   * access and refresh token
+   * send token in cookie 
+   */
+  ```
+- generated access and refresh token.
+- saved refresh token in database.
+- set the cookie to modifidable ony in server side.
+- return and saved the refresh & access token in cookie.
+- made a middlleware of auth.
+- created route of `login` and `logout`.
+- added middleware in logout route.
+- cleared the cookie and logged out the user.
