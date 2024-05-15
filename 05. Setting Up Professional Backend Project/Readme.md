@@ -221,4 +221,9 @@
 
 ## Writing update controllers for user
 
-- Added subscription model
+- Added subscription model.
+- added `changeCurrentPassword` function in user conroller.
+- added `getCurrentUser` function to get current user info.
+- added `updateAccountDetails`to update fullname and email.
+- added `updateUserAvatar` controller to update the user profile.
+- added `updateCoverImage` controller to update cover image of user.
