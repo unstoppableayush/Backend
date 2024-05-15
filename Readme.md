@@ -290,3 +290,12 @@
 - created route of `login` and `logout`.
 - added middleware in logout route.
 - cleared the cookie and logged out the user.
+
+## Access token and refresh token
+
+- Fix the bugs and make a login request using Postman.
+- created controller for `refreshAccessToken`
+
+## Writing update controllers for user
+
+- Added subscription model

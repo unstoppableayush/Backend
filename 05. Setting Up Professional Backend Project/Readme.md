@@ -218,4 +218,7 @@
 
 - Fix the bugs and make a login request using Postman.
 - created controller for `refreshAccessToken`
-- 
+
+## Writing update controllers for user
+
+- Added subscription model
