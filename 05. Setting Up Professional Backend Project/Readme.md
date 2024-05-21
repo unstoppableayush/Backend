@@ -227,3 +227,17 @@
 - added `updateAccountDetails`to update fullname and email.
 - added `updateUserAvatar` controller to update the user profile.
 - added `updateCoverImage` controller to update cover image of user.
+
+## Understand the subscription Schema
+
+- TODO - Delete old image on cloudnary during updating avatar and cover image.
+- Subscription Schema -> `Subscribers` , `Channel`
+- User -> a, b, c, d, e
+- Channel - CAC , HCC , FCC
+- When user will subscribe any channel then a document will be created.
+- When a documents creates , It will contain two values `Subscribers` & `Channel`.
+- When a user `a` subscribes channel `CAC` then a new document will be created. It will contain `Channel -> CAC` & `Subscribers -> a`. It will continues for others users.
+- `Subscribers` - No. of documents where `channel == CAC`
+- `Channel` - Extract channel name and No. of documents where `subscriber == c` (subscribed channel)
+
+
