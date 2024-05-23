@@ -241,3 +241,11 @@
 - `Channel` - Extract channel name and No. of documents where `subscriber == c` (subscribed channel)
 
 
+## Mongodb aggregation 
+
+- The aggregation pipeline consists of one or more stages that process documents:
+- Each stage perfroms an operation on input documents
+- The documents that are output from a stage passed to the next stage.
+- can return groups of documents. For ex - return the total, average, 
+
+

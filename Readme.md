@@ -316,3 +316,7 @@
 - When a user `a` subscribes channel `CAC` then a new document will be created. It will contain `Channel -> CAC` & `Subscribers -> a`. It will continues for others users.
 - `Subscribers` - No. of documents where `channel == CAC`
 - `Channel` - Extract channel name and No. of documents where `subscriber == c` (subscribed channel)
+
+## Mongodb aggregation 
+
+- 
