@@ -326,4 +326,7 @@
 - written `getUserChannelProfile` contoller.
 - written aggregation pipelines for getuserchannelprofile
 
+## Write sub pipelines and routes
 
+- Written Pipelines and subpipelines to add `getWatchHistory` controller.
+- 
