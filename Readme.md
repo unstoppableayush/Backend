@@ -329,4 +329,12 @@
 ## Write sub pipelines and routes
 
 - Written Pipelines and subpipelines to add `getWatchHistory` controller.
-- 
+- Added new routes for user controller.
+
+## Summary of Backend Series
+
+- Don't depend upon packages .
+- Do core work as much as you can.
+- ```
+     Enviornment Variables -> Dependency (Packages) -> Database Connection -> Setting Path (index.js) -> Routing & Controller , Api Versioning -> Models -> Model Hooks -> Tokens -> Controllers (User) -> DB Query -> CRUD Operation -> Middlewares -> File Management (During Uplading) -> Aggregation Pipelines -> MongoDB Operators 
+     ```
