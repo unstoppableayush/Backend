@@ -299,7 +299,7 @@
 ## Writing update controllers for user
 
 - Added subscription model.
-- added `changeCurrentPassword` function in user conroller.
+- added `changeCurrentPassword` function in user controller.
 - added `getCurrentUser` function to get current user info.
 - added `updateAccountDetails`to update fullname and email.
 - added `updateUserAvatar` controller to update the user profile.
@@ -338,3 +338,12 @@
 - ```
      Enviornment Variables -> Dependency (Packages) -> Database Connection -> Setting Path (index.js) -> Routing & Controller , Api Versioning -> Models -> Model Hooks -> Tokens -> Controllers (User) -> DB Query -> CRUD Operation -> Middlewares -> File Management (During Uplading) -> Aggregation Pipelines -> MongoDB Operators 
      ```
+
+## MongoDB models for like playlist and tweet
+
+- Cheked all the routes and fixed the bugs.
+- **added models**
+    - `comment.model.js`
+    - `playlist.model.js`
+    - `tweet.model.js`
+    - `like.model.js`
